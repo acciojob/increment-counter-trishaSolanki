@@ -1,9 +1,15 @@
 //your JS code here. If required.
-var counterElement = document.getElementById('counter');
-var incrementBtn = document.getElementById('increment') ;
+ var counterElement = document.getElementById('counter');
+        var incrementBtn = document.getElementById('incrementBtn');
 
-incrementBtn.addEventListener('click' , function() {
-	var currentValue = parseInt(counterElement.innerText);
-	alert('incrementValue : ' + currentValue);
-	currentValue.innerText = currentValue + 1;
-});
+        // Add a click event listener to the button
+        incrementBtn.addEventListener('click', function () {
+            // Get the current counter value
+            var currentValue = parseInt(counterElement.innerText);
+
+            // Display an alert with the current value before incrementing
+            alert('Un-incremented Value: ' + currentValue);
+
+            // Increment the counter value
+            counterElement.innerText = currentValue + 1;
+        });
