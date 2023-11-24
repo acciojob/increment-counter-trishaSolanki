@@ -8,7 +8,7 @@
             var currentValue = parseInt(counterElement.innerText);
 
             // Display an alert with the current value before incrementing
-            alert('Un-incremented Value: ' + currentValue);
+            alert('incremented Value: ' + currentValue);
 
             // Increment the counter value
             counterElement.innerText = currentValue + 1;
