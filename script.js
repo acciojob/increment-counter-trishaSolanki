@@ -11,7 +11,7 @@
             counterElement.innerText = currentValue + 1;
 			
             // Display an alert with the current value before incrementing
-            alert('incremented Value: ' + currentValue);
+            alert('un-incremented Value: ' + currentValue);
 
            
         });
