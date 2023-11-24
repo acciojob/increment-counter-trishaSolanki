@@ -7,9 +7,11 @@
             // Get the current counter value
             var currentValue = parseInt(counterElement.innerText);
 
+         // Increment the counter value
+            counterElement.innerText = currentValue + 1;
+			
             // Display an alert with the current value before incrementing
             alert('incremented Value: ' + currentValue);
 
-            // Increment the counter value
-            counterElement.innerText = currentValue + 1;
+           
         });
